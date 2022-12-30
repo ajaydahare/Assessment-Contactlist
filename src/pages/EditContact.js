@@ -26,8 +26,8 @@ const EditContact = () => {
         <IoIosArrowRoundBack
           onClick={() => navigate(-1)}
           className="w-7 h-7 inline-block mr-2 text-ai-primary-text-teal border-2 border-ai-primary-text-teal rounded-md cursor-pointer "
-        />{" "}
-        Add Contact Edit Contact
+        />
+         Edit Contact
       </h1>
       {data && <Form data={data} isEdit={true} onSubmit={handleSubmit} />}
     </div>
